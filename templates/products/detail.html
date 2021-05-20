@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ object.title}}</h1>
+
+{{ request.path }}
+{{ request.user }}
+
+{% include "products/detail_snippet.html" with product=object %}
+This is the overriding template.
+{% endblock %}

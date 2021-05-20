@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ object.title}}</h1>
+
+{{ request }}
+
+{% if object.content %}
+    <p>{{ object.content}}</p>
+{% else %}
+    <p>Description not provided </p>
+{% endif %}
+This template gets overridden.
+{% endblock %}
