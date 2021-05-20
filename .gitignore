@@ -1,5 +1,5 @@
 .vscode
 Include
-pyenv.cfg
+pyvenv.cfg
 Lib
 Scripts
